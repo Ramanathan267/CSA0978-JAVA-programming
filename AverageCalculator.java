@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class AverageCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -27,8 +26,8 @@ public class AverageCalculator {
         }
         
         // Calculate averages
-        double averagePositive = countPositive == 0 ? 0 : (double) sumPositive / countPositive;
-        double averageNegative = countNegative == 0 ? 0 : (double) sumNegative / countNegative;
+        double averagePositive =  (double) sumPositive / countPositive;
+        double averageNegative = (double) sumNegative / countNegative;
         
         // Display results
         System.out.println("The average of negative numbers is: " + averageNegative);

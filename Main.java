@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class MultiplicationTable extends Thread {
+public class Main extends Thread {
     private int number;
 
-    public MultiplicationTable(int number) {
+    public void MultiplicationTable(int number) {
         this.number = number;
     }
 

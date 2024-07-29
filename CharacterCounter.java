@@ -9,10 +9,14 @@ public class CharacterCounter {
         while (true) {
             System.out.print("Enter any character: ");
             char ch = scanner.next().charAt(0);
-            if (ch == '*') break;
-            if (Character.isUpperCase(ch)) countUpper++;
-            else if (Character.isLowerCase(ch)) countLower++;
-            else if (Character.isDigit(ch)) countNumbers++;
+            if (ch == '*') 
+            break;
+            if (Character.isUpperCase(ch)) 
+            countUpper++;
+            else if (Character.isLowerCase(ch)) 
+            countLower++;
+            else if (Character.isDigit(ch)) 
+            countNumbers++;
         }
         
         System.out.println("Total count of lower case: " + countLower);
